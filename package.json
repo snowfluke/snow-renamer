@@ -1,0 +1,39 @@
+{
+  "name": "snow-renamer",
+  "license": "MIT",
+  "version": "1.0.0",
+  "author": {
+    "name": "Awal Ariansyah",
+    "email": "awalariansyah7@gmail.com"
+  },
+  "description": "Auto rename all images with AI Image Captioning",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snowfluke/snow-renamer.git"
+  },
+  "keywords": [
+    "rename",
+    "AI",
+    "image",
+    "captioning",
+    "tensorflow"
+  ],
+  "homepage": "https://github.com/snowfluke/snow-renamer",
+  "bugs": {
+    "url": "https://github.com/snowfluke/snow-renamer/issues"
+  },
+  "bin": {
+    "snow-renamer": "./index.js"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=16"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.2",
+    "@tensorflow/tfjs-backend-cpu": "^4.2.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.2.0",
+    "@tensorflow/tfjs-node": "^4.2.0"
+  }
+}
